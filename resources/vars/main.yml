@@ -3,3 +3,9 @@ ntp_timezone: America/New_York
 
 docker_users:
   - vagrant
+
+dnsmasq_custom_hosts:
+  - hostname: docker-centos-s8
+    ip_address: 192.168.56.5
+  - hostname: docker-debian-10
+    ip_address: 192.168.56.6
